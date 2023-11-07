@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather for {{ weather_data.city }}</title>
+    <style>
+        .weather-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            max-width: 400px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <h1 style="color: #333;">Weather for {{ weather_data.city }}</h1>
+        <p style="color: #444;">Temperature: {{ weather_data.temperature }}&deg;C</p>
+        <p style="color: #444;">Humidity: {{ weather_data.humidity }}%</p>
+        <p style="color: #444;">Weather: {{ weather_data.description }}</p>
+    </div>
+</body>
+</html>
