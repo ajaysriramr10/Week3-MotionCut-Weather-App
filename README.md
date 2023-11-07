@@ -1,11 +1,16 @@
-# Week3-MotionCut-Weather-App
-The Weather App is a user-friendly web application built with Python and Flask. It fetches real-time weather data based on user-entered city names, displaying information like temperature, humidity, and weather conditions. It features graceful error handling for an enhanced user experience.
-Creating a detailed README file is important to help users understand your Weather App, how to set it up, and how to use it. Here's a sample README file for your Weather App:
 
-```markdown
 # Weather App
 
 The Weather App is a Python-based web application that provides real-time weather information for a given city. It uses the Weatherstack API to fetch weather data and offers a user-friendly interface for users to access weather details easily.
+
+## Folder Structure
+
+The project has the following folder structure:
+
+- `app.py`: The main Python script for the Weather App.
+- `templates/`: This directory contains HTML templates for the app's user interface.
+  - `index.html`: The initial page where users enter a city name.
+  - `weather.html`: The page displaying weather details.
 
 ## Features
 
@@ -74,6 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to Weatherstack for providing the weather data API.
 ```
 
-In this README file, replace placeholders like `'YOUR_API_KEY'` with the actual API key, and update the GitHub repository URL (`https://github.com/yourusername/weather-app.git`) to match your project's repository.
-
-Additionally, provide instructions for users to install dependencies, run the app, and customize it according to their needs. This README file will help users understand and use your Weather App effectively.
+This updated README file includes information about the folder structure of the project. You can adjust the folder names and structure to match your actual project structure if needed.
